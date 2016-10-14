@@ -1,18 +1,12 @@
 package test;
 
-import java.util.Arrays;
-
-class Generic<T extends Number> {
-    private T arr[] ;
-
-    public String toString(){
-        return Arrays.toString(arr);
-    }
-}
-
 public class Main {
     public static void main(String [] args) {
-        Generic<Double> obj = new Generic<Double>();
-        System.out.println(obj);
+        Boolean b = true;
+        int i = 10;
+        String str = "Hello World";
+        assert (b == true) : "true";
+        assert (i == 10) : "fdfgdgg";
+        System.out.println(str);
     }
 }
