@@ -6,7 +6,7 @@ public class Main {
         int i = 10;
         String str = "Hello World";
         assert (b == true) : "true";
-        assert (i == 10) : "fdfgdgg";
+        assert (i != 10) : "false";
         System.out.println(str);
     }
 }
